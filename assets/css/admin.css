@@ -1,0 +1,24 @@
+.report_type_link{
+	float: right;
+    line-height: 26px;
+    border-left: 1px solid #dfdfdf;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+.report_type_link.selected {
+    opacity: 0.5;
+	pointer-events: none;
+    cursor: default;
+}
+.woocommerce-reports-wide .postbox .chart-widgets li.chart-widget .sales-country-table th{
+	padding: 5px;
+    font-size: 13px;
+}
+.woocommerce-reports-wide .postbox .chart-widgets li.chart-widget .sales-country-table td{
+	padding: 5px;
+    font-size: 13px;
+}
+.woocommerce-reports-wide .postbox .chart-widgets li.chart-widget .sales-country-table th:last-child {
+    width: 25%;
+}
